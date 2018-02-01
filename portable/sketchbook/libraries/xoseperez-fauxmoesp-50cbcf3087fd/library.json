@@ -1,0 +1,23 @@
+{
+    "name": "FauxmoESP",
+    "keywords": "belkin,wemo,fauxmo,esp8266,esp32,alexa,amazon,echo,dot",
+    "description": "Amazon Alexa support for ESP8266 and ESP32 (Amazon Echo & Dot)",
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/xoseperez/fauxmoesp.git"
+    },
+    "version": "2.4.2",
+    "license": "MIT",
+    "exclude": "tests",
+    "frameworks": "arduino",
+    "platforms": ["espressif8266", "espressif32"],
+    "authors": {
+        "name": "Xose Perez",
+        "email": "xose.perez@gmail.com",
+        "url": "http://tinkerman.cat",
+        "maintainer": true
+    },
+    "examples": [
+        "examples/*/src/*.ino"
+    ]
+}
