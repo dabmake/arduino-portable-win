@@ -49,7 +49,7 @@ void setup() {
     Serial.begin(SERIAL_BAUDRATE);
     Serial.println("FauxMo demo sketch");
     Serial.println("After connection, ask Alexa/Echo to 'turn <devicename> on' or 'off'");
-    pinMode(LED_BUILTIN, OUTPUT);
+    pinMode(D6, OUTPUT);
     // Wifi
     wifiSetup();
 
